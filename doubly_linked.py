@@ -125,14 +125,16 @@ class DoublyLinkedList:
         self.head.prev = node
         self.head = node
 
-my_list = DoublyLinkedList()
+if __name__ == "__main__":
+    my_list = DoublyLinkedList()
 
-alice = my_list.insert_back("Alice")
-bob = my_list.insert_back("Bob")
-charlie = my_list.insert_back("Charlie")
+    alice = my_list.insert_back("Alice")
+    bob = my_list.insert_back("Bob")
+    charlie = my_list.insert_back("Charlie")
 
-my_list.move_to_front(charlie)
+    my_list.move_to_front(charlie)
 
-print(my_list.head.data)
-print(my_list.tail.data)
-print(my_list.length)
+    print(my_list.head.data)
+    print(my_list.tail.data)
+    print(my_list.length)
+
