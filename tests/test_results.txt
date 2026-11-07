@@ -1,0 +1,24 @@
+test_invalid_commands_and_arguments (test_mini_redis.TestCLI.test_invalid_commands_and_arguments) ... ok
+test_quotes_and_command_parsing (test_mini_redis.TestCLI.test_quotes_and_command_parsing) ... ok
+test_insert_move_remove (test_mini_redis.TestDoublyLinkedList.test_insert_move_remove) ... ok
+test_collision_and_individual_deletion (test_mini_redis.TestHashMap.test_collision_and_individual_deletion) ... ok
+test_resize_rehash_and_overwrite (test_mini_redis.TestHashMap.test_resize_rehash_and_overwrite) ... ok
+test_minimum_first_and_capacity_growth (test_mini_redis.TestMinHeap.test_minimum_first_and_capacity_growth) ... ok
+test_basic_set_get_del_exists (test_mini_redis.TestMiniRedis.test_basic_set_get_del_exists) ... ok
+test_config_zero_unlimited_and_invalid (test_mini_redis.TestMiniRedis.test_config_zero_unlimited_and_invalid) ... ok
+test_dbsize_and_keys (test_mini_redis.TestMiniRedis.test_dbsize_and_keys) ... ok
+test_delete_cleans_expiry_and_lru (test_mini_redis.TestMiniRedis.test_delete_cleans_expiry_and_lru) ... ok
+test_expire_zero_deletes_immediately (test_mini_redis.TestMiniRedis.test_expire_zero_deletes_immediately) ... ok
+test_info_memory_fields (test_mini_redis.TestMiniRedis.test_info_memory_fields) ... ok
+test_lru_eviction_order (test_mini_redis.TestMiniRedis.test_lru_eviction_order) ... ok
+test_oom_does_not_modify_existing_keys (test_mini_redis.TestMiniRedis.test_oom_does_not_modify_existing_keys) ... ok
+test_repeated_expire_ignores_stale_heap_entry (test_mini_redis.TestMiniRedis.test_repeated_expire_ignores_stale_heap_entry) ... ok
+test_set_overwrite_clears_ttl (test_mini_redis.TestMiniRedis.test_set_overwrite_clears_ttl) ... ok
+test_ttl_expiration_removes_key_and_memory (test_mini_redis.TestMiniRedis.test_ttl_expiration_removes_key_and_memory) ... ok
+test_ttl_no_expiry_and_missing (test_mini_redis.TestMiniRedis.test_ttl_no_expiry_and_missing) ... ok
+test_utf8_memory_accounting_and_overwrite (test_mini_redis.TestMiniRedis.test_utf8_memory_accounting_and_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.003s
+
+OK
